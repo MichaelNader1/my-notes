@@ -1,0 +1,25 @@
+<section class="login">
+    <div class="container card my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-image">
+                    <img class="w-100" src="../../assets/images/Login-rafiki.svg" alt="" srcset="">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="login-form  w-100">
+                    <form [formGroup]="loginForm" (ngSubmit)="login(loginForm)">
+                        <label for="email">Email:</label>
+                        <input class="form-control mb-2" id="email" type="text">
+
+                        <label for="password">Password:</label>
+                        <input class="form-control mb-2" id="password" type="password">
+
+                        <button type="submit" class="btn login-button my-2 w-100 d-block m-auto">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

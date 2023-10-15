@@ -1,0 +1,16 @@
+.home{
+    height: 100vh;
+    background-color: #FEFBF3;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+}
+.card{
+    width: 25%;
+    padding: 1em;
+}
+.settings-dots{
+    cursor: pointer;
+}
